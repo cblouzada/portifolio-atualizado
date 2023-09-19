@@ -17,5 +17,7 @@ window.addEventListener('load', () => {
     const isDarkMode = localStorage.getItem('dark-mode') === 'true';
     if (isDarkMode) {
         document.body.classList.add('dark-mode'); // Ativa o modo escuro se a preferência do usuário for modo escuro
+    }else if(isDarkMode){
+        return false;
     }
 });

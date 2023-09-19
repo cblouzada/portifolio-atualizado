@@ -467,3 +467,55 @@ footer{
 }
 
 
+/* ================ EFEITO (NLW) ================ */
+
+main div{
+    
+    animation: fromTop .9s .2s backwards;
+    /* animation-delay: 1s; */
+}
+header div{
+    
+    animation: fromTop .9s .2s backwards;
+    /* animation-delay: 1s; */
+}
+h1 {
+    
+    animation: fromTop .9s .2s backwards;
+    /* animation-delay: 1s; */
+}
+
+img{
+    animation: fromTop .9s .2s backwards;
+    /* animation-delay: 1s; */
+}
+
+.profile-img{
+    animation: fromTop .9s .4s backwards;
+}
+
+p{
+    animation: fromTop .9s .2s backwards; 
+}
+
+footer{
+    animation: fromTop .9s .2s backwards; 
+}
+
+
+
+
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    top{
+        opacity: 1;
+        transform: translatey(0);
+    }
+
+
+}
