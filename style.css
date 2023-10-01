@@ -167,7 +167,7 @@ a {
 
 .profile-img {
     
-    width: 30vw; /* Define a largura para 30% da largura da viewport */
+    width: 30%; /* Define a largura para 30% da largura da viewport */
     height: auto; /* Mantém a proporção original */
     border-radius: 50%;  
     /* max-width: 500px; */
@@ -192,6 +192,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 80px;
     
 }
 
@@ -256,6 +257,8 @@ html body .section-about-time-tag { /* Just to add selector priority */
     margin-left: auto;
 }
 
+
+
 /* ================== Tech Stack (stack.html) ================== */
 
 .section-stack {
@@ -264,7 +267,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     min-height: calc(100vh - 55px);
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .section-stack h1 {
@@ -281,23 +284,27 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .section-stack-icons {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
     margin-top: 100px;
   }
   
-  .html, .css, .javascript, .react, .git, .vscode, .linux {
+  .html, .css, .javascript, .react, .git, .vscode, .linux, .node, .movidesk, .anydesk, .figma {
     width: 100px;
     transition: transform 0.3s ease;
   }
   
-  .html:hover, .css:hover, .javascript:hover, .react:hover, .git:hover, .vscode:hover, .linux:hover {
-    transform: translateY(20px); /* Altere o valor conforme necessário */
+  .html:hover, .css:hover, .javascript:hover, .react:hover, .git:hover, .vscode:hover, .linux:hover, 
+  .node:hover, .movidesk:hover, .anydesk:hover, .figma:hover {
+    transform: translateY(20px); /* Alterar o valor conforme necessário */
     box-shadow: 0 20px 50px rgba(0, 166, 255, 0.8);
    
-    
+    /* Centralizando o nome por cima dos icons */
   }
   
-  .nome-html, .nome-css, .nome-js, .nome-react , .nome-git, .nome-vscode, .nome-linux {
+  .nome-html, .nome-css, .nome-js, .nome-react , .nome-git, 
+  .nome-vscode, .nome-linux, .nome-node, .nome-moviedesk, .nome-anydesk, .nome-figma{
     display: flex;
     justify-content: center;
  }
@@ -454,8 +461,7 @@ footer{
 }
 .xadrez{
     display: flex;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .email-box {
