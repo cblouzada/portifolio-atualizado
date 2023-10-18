@@ -2,7 +2,9 @@
 
 ## Desenvolvido pela turma Ammal A
 
-![impr](https://github.com/cblouzada/portifolio-atualizado/assets/104369215/0a608d94-5b47-4a37-981c-1072db9e8e5f)
+
+![image](https://github.com/cblouzada/portifolio-atualizado/assets/104369215/a8f226ab-71d9-45a2-92d8-ff6409735d8d)
+
 
 Template criado por
 https://www.figma.com/@pavanmg007
