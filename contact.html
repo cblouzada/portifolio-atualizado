@@ -41,18 +41,42 @@
         </div>
         <main class="main-contact">
         
-            <h1>Fique a vontade em mandar um e-mail</h1><br>
+            <!-- <h1>Fique a vontade em mandar um e-mail</h1><br>
             <h1 class="email-box">carlosbergson@outlook.com</h1><br>
             <h1>Segue minhas redes sociais no cabeçalho.</h1><br>
             <p>Vamos marcar uma partida de xadrez</p><br>
             <a href="https://play.chess.com/mZMgt" name="text" target="_blank">Link da partida</a> <br>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/handshake--v1.png" alt="handshake--v1"/>
-      
+            <img width="48" height="48" src="https://img.icons8.com/color/48/handshake--v1.png" alt="handshake--v1"/> -->
+                
+            <p id="mensagem">
+                Desculpe, o formulário de contato ainda não está disponível.
+                <br>Estamos trabalhando nisso!
+            </p> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+          
+            <form
+            action=""
+            method="POST"
+            data-form
+            >
+           
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+            <button type="submit" data-button>Enviar</button>
+            
+              
+          </form>
+
+
+
+
     </main>
-    <footer>  
-        <img src="./icons/icons8-xadrez-45.png" alt="xadrez" class="xadrez">
-        <p>Desenvolvido por Carlos Bergson Cruz Louzada</p>
-    </footer>  
+    
         <script src="index.js"></script>
 </body>
 </html>

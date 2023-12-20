@@ -21,3 +21,15 @@ window.addEventListener('load', () => {
         return false;
     }
 });
+
+
+// Função de envio de mensagem
+
+window.onload = function() {
+    Swal.fire({
+      title: 'Desculpe!',
+      text: 'O formulário de contato ainda não está disponível. Estamos trabalhando nisso!',
+      icon: 'info',
+      confirmButtonText: 'Ok'
+    });
+  };

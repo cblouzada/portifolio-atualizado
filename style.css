@@ -486,13 +486,100 @@ footer{
     padding-bottom: 20px;
 }
 
-.email-box {
+/* .email-box {
     background-image: linear-gradient(to right, #0088c2, #42446e);
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
+ 
+  form {
+    width: 100%;
+    max-width: 30rem;
+  }
+  
+  /* label,
+  input,
+  textarea,
+  button {
+    display: block;
+  } */
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font: 'Poppins', sans-serif;
+    padding: 1.25rem;
+    font-weight: 700;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    color: #555891;
+    background: #f0f1f3;
+    border: 0.125rem solid transparent;
+    border-radius: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 10px #000000;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    color: #42446e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  
+  textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+  }
+  
+  button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #21a6f0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover,
+  button:focus {
+    outline: none;
+    background: #1b1b1b;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+  
+  .success,
+  .error {
+    text-align: center;
+  }
+  
+  .success {
+    color: greenyellow;
+  }
+  
+  .error {
+    color: tomato;
+  }
 
 
 /* ================ EFEITO (NLW) ================ */
@@ -553,3 +640,17 @@ footer{
 
 
 }
+
+/* arrumando formulario */
+
+#mensagem {
+      display: none;
+      background-color: #bb9d9f;
+      color: #201e1e;
+      padding: 20px;
+      margin: 10px 0;
+      border: 1px solid #63171e;
+      border-radius: 20px;
+    }
+    
+   
