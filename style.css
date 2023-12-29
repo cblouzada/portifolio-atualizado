@@ -655,49 +655,5 @@ footer{
     
    
 
-/* 
-teste de formulario
-*/
 
-
-
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.obrigado {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #5BBE42;
-}
-
-.center {
-    text-align: center;
-}
-
-
-.container {
-    padding: 0px 50px;
-}
-
-nav a {
-    font-size: 20px;
-}
-
-nav a:hover {
-    color: #5BBE42;
-}
-
-.contact-form input{
-    width: 100%;
-    padding: 8px 0;
-    margin: 8px 0;
-}
-
-.contact-form input[type=text] {
-    height: 100px;
-}
 
