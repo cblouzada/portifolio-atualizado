@@ -15,6 +15,7 @@ darkModeToggle.addEventListener('click', toggleDarkMode);
 // Verifica a preferência do usuário ao carregar a página
 window.addEventListener('load', () => {
     const isDarkMode = localStorage.getItem('dark-mode') === 'true';
+
     if (isDarkMode) {
         document.body.classList.add('dark-mode'); // Ativa o modo escuro se a preferência do usuário for modo escuro
     }else if(isDarkMode){
@@ -25,11 +26,11 @@ window.addEventListener('load', () => {
 
 // Função de envio de mensagem
 
-window.onload = function() {
-    Swal.fire({
-      title: 'Desculpe!',
-      text: 'O formulário de contato ainda não está disponível. Estamos trabalhando nisso!',
-      icon: 'info',
-      confirmButtonText: 'Ok'
-    });
-  };
+// window.onload = function() {
+//     Swal.fire({
+//       title: 'Desculpe!',
+//       text: 'O formulário de contato ainda não está disponível. Estamos trabalhando nisso!',
+//       icon: 'info',
+//       confirmButtonText: 'Ok'
+//     });
+//   };
