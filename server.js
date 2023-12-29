@@ -1,14 +1,14 @@
-import express from 'express';
-import { urlencoded } from 'body-parser';
-import { createTransport } from 'nodemailer';
+const express = require('express');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
-app.use(urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Configuração do nodemailer - substitua com suas próprias informações
-const transporter = createTransport({
+const transporter = nodemailer.createTransport({
   service: 'Hotmail',
   auth: {
     user: 'carlosbergson@outlook.com',
