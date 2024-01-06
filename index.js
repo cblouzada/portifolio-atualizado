@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
 });
 
 
-// Função de envio de mensagem
+// teste-teste Função de envio de mensagem
 
 // window.onload = function() {
 //     Swal.fire({
